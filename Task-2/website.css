@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardekho-container .cardekho-navbar {
+    border-bottom: 1px solid rgb(184, 180, 180);
+    padding: 10px 0;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.cardekho-container .cardekho-navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.cardekho-container .cardekho-navbar ul .logo {
+    height: 60px;
+    width: 180px;
+    border: 1px solid;
+}
+
+.cardekho-container .cardekho-navbar .searchbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.cardekho-container .cardekho-navbar .searchbar svg {
+    position: absolute;
+    left: 14px;
+    height: 22px;
+    width: 22px;
+    pointer-events: none;
+}
+
+.cardekho-container .cardekho-navbar .searchbar input[type="text"] {
+    padding: 10px 40px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(169, 167, 167);
+}
+
+.cardekho-container .cardekho-navbar .login {
+    background-color: rgb(89, 26, 204);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cardekho-container .cardekho-navbar .login:hover {
+    background-color: rgb(12, 90, 168);
+}
+
+.lower-section {
+    padding: 30px 50px;
+    background-color: rgb(244, 244, 227);
+}
+
+.lower-section .hero-section {
+    width: 100%;
+    margin-bottom: 40px;
+    /* border: 1px solid rgb(165, 162, 162); */
+}
+
+.lower-section .hero-section .button-section {
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 10px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    background-color: white;
+}
+.lower-section .hero-section .button-section button {
+    width: 100%;
+}
+
+.lower-section .hero-section .image-section {
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 10px;
+    height: 50vh;
+    background-color: white;
+}
+
+
+/* Most search cars */
+
+.lower-section .most-search-cards {
+    /* height: 50vh; */
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.lower-section .most-search-cards .search-header {
+    border-bottom: 1px solid rgb(165, 162, 162);
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lower-section .most-search-cards .search-body {
+    padding: 20px;
+    background-color: rgb(229, 214, 239); 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.lower-section .most-search-cards .search-body .search-card {
+    border: 1px solid rgb(165, 162, 162);
+    background-color: white;
+    border-radius: 10px;
+    height: 45vh;
+}
+
+.lower-section .most-search-cards .search-body .most-search-image {
+    height: 60%;
+    border-bottom: 1px solid;
+}
+
+.lower-section .most-search-cards .search-body .most-search-details {
+    padding: 10px 20px;
+}
+
+.lower-section .most-search-cards .search-body .most-search-details .car-name {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.lower-section .most-search-cards .search-body .most-search-details .car-price {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+/* Latest car */
+
+.lower-section .latest-cars-cards {
+    /* height: 50vh; */
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.lower-section .latest-cars-cards .latest-header {
+    border-bottom: 1px solid rgb(165, 162, 162);
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lower-section .latest-cars-cards .latest-body {
+    padding: 20px;
+    background-color: rgb(245, 215, 196); 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.lower-section .latest-cars-cards .latest-body .latest-card {
+    border: 1px solid rgb(165, 162, 162);
+    background-color: white;
+    border-radius: 10px;
+    height: 45vh;
+}
+
+.lower-section .latest-cars-cards .latest-body .latest-image {
+    height: 60%;
+    border-bottom: 1px solid;
+}
+
+.lower-section .latest-cars-cards .latest-body .latest-car-details {
+    padding: 10px 20px;
+}
+
+.lower-section .latest-cars-cards .latest-body .latest-car-details .car-name {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.lower-section .latest-cars-cards .latest-body .latest-car-details .car-price {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cardekho-footer {
+    background-color: #1f1f1f;
+    color: #cfcfcf;
+    padding: 50px 0 20px;
+    font-size: 14px;
+}
+
+.cardekho-footer h6 {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.cardekho-footer p {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.cardekho-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cardekho-footer ul li {
+    margin-bottom: 8px;
+}
+
+.cardekho-footer ul li a {
+    color: #cfcfcf;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cardekho-footer ul li a:hover {
+    color: #ffffff;
+}
+
+.footer-social a {
+    margin-right: 10px;
+    color: #cfcfcf;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-social a:hover {
+    color: #ffffff;
+}
+
+.cardekho-footer hr {
+    border-color: #444;
+    margin: 20px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: #9a9a9a;
+    font-size: 13px;
+}
+
+@media (max-width: 767px) {
+    .cardekho-container .cardekho-navbar {
+        padding: 10px 20px;
+    }
+    .cardekho-container .cardekho-navbar ul {
+        display: block;
+        padding-left: 0;
+    }
+    .cardekho-container .cardekho-navbar ul .logo {
+        margin-bottom: 10px;
+    }
+    .cardekho-container .cardekho-navbar .searchbar {
+        margin-bottom: 10px;
+    }
+    .cardekho-container .cardekho-navbar .login {
+        width: 50%;
+    }
+    .lower-section {
+        padding: 30px 20px;
+    }
+    .lower-section .hero-section .button-section {
+        height: 25vh;
+        margin-bottom: 7px;
+    }
+    .lower-section .hero-section .image-section {
+        height: 30vh;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    .lower-section .hero-section .button-section {
+        height: 25vh;
+        margin-bottom: 7px;
+    }
+    .lower-section .hero-section .image-section {
+        height: 30vh;
+    }
+    .lower-section .most-search-cards .search-body .search-card {
+        height: 35vh;
+    }
+    .lower-section .latest-cars-cards .latest-body .latest-card {
+        height: 35vh;
+    }
+    .cardekho-footer {
+        padding: 20px 0;
+    }
+}
