@@ -13,13 +13,13 @@ In this task, I have created a homepage of CarDekho website (not fully a clone w
 
 Then, these data stores and update in "cardekho_db" database.   <br>
 
-4. Database
-I have export 2 database from phpMyAdmin (car_db, cardekho_db) in Database folder
+4. Database <br>
+I have export 2 database from phpMyAdmin (car_db, cardekho_db) in Database folder <br>
 
-5. Requirements :-
-VSCode IDE
-XAMPP Server (phpMyAdmin)
-MySQL
-PHP 8.4.10
+5. Requirements :- <br>
+VSCode IDE <br>
+XAMPP Server (phpMyAdmin) <br>
+MySQL <br>
+PHP 8.4.10 <br>
 
-Note - For connecting PHP with MySQL database, your password is also required in "config.php" file and "save.php" file
+Note - For connecting PHP with MySQL database, your password is also required in "config.php" file and "save.php" file <br>
