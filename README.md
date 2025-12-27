@@ -23,3 +23,4 @@ MySQL <br>
 PHP 8.4.10 <br>
 
 Note - For connecting PHP with MySQL database, your password is also required in "config.php" file and "save.php" file <br>
+I have given port number - 3307 according to my localhost, so you have to check port also in "localhost:3307"
