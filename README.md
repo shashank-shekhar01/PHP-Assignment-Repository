@@ -25,4 +25,4 @@ PHP 8.4.10 <br>
 Note - For checking Task-1, you have to execute "form.php". <br>
        For checking Task-2, you have to execute "index.php". <br>
 
-       I have given port number - 3307 according to my localhost, so you have to check port also in "localhost:3307"
+I have given port number - 3307 according to my localhost, so you have to check port also in "localhost:3307"
