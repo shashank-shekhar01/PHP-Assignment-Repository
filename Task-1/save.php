@@ -26,7 +26,7 @@ $sql = "INSERT INTO car_enquiry
 
 if (mysqli_query($conn, $sql)) {
     $_SESSION['success'] = "Form submitted successfully!";
-    header("Location: form.php");
+    header("Location: index.php");
     exit;
 } else {
     echo "Error: " . mysqli_error($conn);
