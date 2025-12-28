@@ -22,7 +22,7 @@ XAMPP Server (phpMyAdmin) <br>
 MySQL <br>
 PHP 8.4.10 <br>
 
-Note - For checking Task-1, you have to execute "form.php". <br>
-       For checking Task-2, you have to execute "index.php". <br>
+Note - For checking Task-1, you have to execute "index.php" in Task-1 Folder. <br>
+       For checking Task-2, you have to execute "index.php" in Task-2 Folder. <br>
 
 I have given port number - 3307 according to my localhost, so you have to check port also in "localhost:3307"
