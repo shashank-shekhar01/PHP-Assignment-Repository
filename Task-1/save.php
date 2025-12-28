@@ -2,7 +2,7 @@
 
 session_start();
 
-$conn = mysqli_connect("localhost:3307", "root", "your_database_password", "car_db");
+$conn = mysqli_connect("localhost:3307", "root", "", "car_db");
 
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());

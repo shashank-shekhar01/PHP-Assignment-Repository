@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3307
--- Generation Time: Dec 27, 2025 at 03:29 PM
+-- Generation Time: Dec 28, 2025 at 10:06 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -44,7 +44,9 @@ INSERT INTO `cars` (`id`, `name`, `price`, `image`, `section`) VALUES
 (12, 'Maruti Suzuki 1', 'Rs 30.80 - 50.56 Lakh', 'maruti car-1.jpg', 'most_search'),
 (13, 'Maruti Suzuki 2', 'Rs 60 - 70 Lakh', 'maruti car-2.png', 'most_search'),
 (14, 'Lamborghini', 'Rs 20 - 40 Lakh', 'Lamborghini.png', 'latest'),
-(15, 'Maruti Suzuki 3', 'Rs 10 - 28 Lakh', 'maruti car-3.jfif', 'latest');
+(15, 'Maruti Suzuki 3', 'Rs 10 - 28 Lakh', 'maruti car-3.jfif', 'latest'),
+(16, 'Maruti Suzuki 4', 'Rs 30.80 - 50.56 Lakh', 'maruti car-4.jfif', 'most_search'),
+(18, 'Maruti Suzuki 4', 'Rs 35.5 - 45.5 Lakh', 'maruti car-4.jfif', 'latest');
 
 -- --------------------------------------------------------
 
@@ -83,7 +85,7 @@ CREATE TABLE `hero_image` (
 --
 
 INSERT INTO `hero_image` (`id`, `image`) VALUES
-(10, 'Hero-1.jpg');
+(12, 'Hero-1.jpg');
 
 -- --------------------------------------------------------
 
@@ -101,7 +103,7 @@ CREATE TABLE `logo` (
 --
 
 INSERT INTO `logo` (`id`, `image`) VALUES
-(14, 'Logo-1.png');
+(18, 'Logo-1.png');
 
 --
 -- Indexes for dumped tables
@@ -139,19 +141,19 @@ ALTER TABLE `logo`
 -- AUTO_INCREMENT for table `cars`
 --
 ALTER TABLE `cars`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `hero_image`
 --
 ALTER TABLE `hero_image`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `logo`
 --
 ALTER TABLE `logo`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

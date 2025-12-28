@@ -5,11 +5,11 @@ In this task, I have created a registration form, which takes input from users i
 
 2. Task-2 <br>
 In this task, I have created a homepage of CarDekho website (not fully a clone website), but I have made a Dynamic website where admin can upload, delete, edit images & data in different sections, i.e., <br>
-   i) Header <br>
-   ii) 1st Banner section <br>
-   iii) The most searched car section <br>
-   iv) Latest car section <br>
-   v) Footer <br>
+   i) Header - Upload/Delete Logo <br>
+   ii) 1st Banner section - Upload/Delete Hero image <br>
+   iii) The most searched car section - Upload/Delete/Edit Car Details <br>
+   iv) Latest car section - Upload/Delete/Edit Car Details <br>
+   v) Footer - 'Edit Footer' button is there for editing some footer details <br>
 
 Then, these data stores and update in "cardekho_db" database.   <br>
 
@@ -22,5 +22,7 @@ XAMPP Server (phpMyAdmin) <br>
 MySQL <br>
 PHP 8.4.10 <br>
 
-Note - For connecting PHP with MySQL database, your password is also required in "config.php" file and "save.php" file <br>
-I have given port number - 3307 according to my localhost, so you have to check port also in "localhost:3307"
+Note - For checking Task-1, you have to execute "form.php". <br>
+       For checking Task-2, you have to execute "index.php". <br>
+
+       I have given port number - 3307 according to my localhost, so you have to check port also in "localhost:3307"
